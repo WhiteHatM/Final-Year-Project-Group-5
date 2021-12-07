@@ -17,5 +17,5 @@ while True:
     
     if i==1:               #When output from motion sensor is HIGH
         print ("Intruder detected")
-        camera.capture("/home/pi/Pictures/Img {0}.jpg".format{current_time})
+        camera.capture("/home/pi/Pictures/Img {0}.jpg".format(current_time))
         time.sleep(2)
